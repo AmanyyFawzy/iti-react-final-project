@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "email": "youssef@gmail.com",
+      "password": "$2a$10$WmVX02G42GgcecPUJIhZkOW45TbkVf69ZkbPbzfLA36rrs2ghca5a",
+      "firstname": "youssef",
+      "lastname": "ali",
+      "id": 1
+    },
+    {
+      "email": "amanyf070@gmail.com",
+      "password": "$2a$10$2ezBmaZK4ZP/cNRz7VddmObFYw2iB8m5R5/aJ340a2uQD7NX5OPge",
+      "firstname": "Amany",
+      "lastname": "Fawzy",
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "personImage": "https://images.unsplash.com/photo-1611662781749-2d208fec7e44?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "personName": "Ahmed Ali",
+      "title": "Good Morning❤️",
+      "postImage": "https://images.unsplash.com/photo-1749310112191-b8c28a9ce4d6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "comments": [
+        {
+          "text": "Nice post!",
+          "firstName": "Youssef",
+          "lastName": "Ali",
+          "image": "https://link-to-image.jpg"
+        },
+        {
+          "text": "Beautiful!",
+          "firstName": "Amany",
+          "lastName": "Fawzy",
+          "image": "https://link-to-image.jpg"
+        },
+        {
+          "text": "wow!!!",
+          "firstName": "Amany",
+          "lastName": "Fawzy"
+        },
+        {
+          "text": "555",
+          "firstName": "youssef",
+          "lastName": "ali"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "personImage": "https://randomuser.me/api/portraits/women/44.jpg",
+      "personName": "Sara Ahmed",
+      "title": "Enjoying the beautiful weather outside. How do you spend your weekends?",
+      "postImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1470&auto=format&fit=crop",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "personImage": "https://randomuser.me/api/portraits/men/36.jpg",
+      "personName": "Omar Khaled",
+      "title": "Excited to announce our new app launching next month. Stay tuned for updates!",
+      "postImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop",
+      "comments": []
+    },
+    {
+      "personImage": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "personName": "youssef ali",
+      "title": "Success is the result of preparation, hard work, and learning from failure",
+      "postImage": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 4,
+      "comments": []
+    },
+    {
+      "personImage": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "personName": "youssef ali",
+      "title": "Pray for Gaza 🙏",
+      "postImage": "https://images.unsplash.com/photo-1702024249908-3d04f2c22d71?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 5,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "personImage": "https://randomuser.me/api/portraits/women/68.jpg",
+      "personName": "Laila Hassan",
+      "title": "Just finished reading an amazing book! 📖 Any recommendations for my next read?",
+      "postImage": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?q=80&w=1470&auto=format&fit=crop",
+      "comments": [
+        {
+          "text": "enjoy laila",
+          "firstName": "hager",
+          "lastName": "youssef"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "personImage": "https://randomuser.me/api/portraits/men/55.jpg",
+      "personName": "Karim Mostafa",
+      "title": "Throwback to my hiking trip in the mountains ⛰️🌲",
+      "postImage": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1470&auto=format&fit=crop",
+      "comments": [
+        {
+          "text": "nice",
+          "firstName": "youssef",
+          "lastName": "ali"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "WoWW",
+      "postImage": "https://images.unsplash.com/photo-1650185619838-9ed33a10cd38?q=80&w=1513&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "personName": "youssef ali",
+      "personImage": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "userId": 1,
+      "comments": [
+        {
+          "text": "tohfaaaa",
+          "firstName": "Amany",
+          "lastName": "Fawzy"
+        }
+      ]
+    },
+    {
+      "personName": "youssef ali",
+      "personImage": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "userId": 1,
+      "title": "so cute!!!",
+      "postImage": "https://images.unsplash.com/photo-1748882587378-b80308c26725?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 14,
+      "comments": [
+        {
+          "text": "😭😭😭😭😭😭😭😭😭😭😭😭",
+          "firstName": "Amany",
+          "lastName": "Fawzy"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "!!!",
+      "postImage": "https://images.unsplash.com/photo-1745488099170-a241b8842040?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "personName": "youssef ali",
+      "personImage": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+      "userId": 1
+    }
+  ]
+}
