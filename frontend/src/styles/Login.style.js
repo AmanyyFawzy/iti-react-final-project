@@ -2,7 +2,7 @@ export const mainContainerStyles = {
   display: "flex",
   justifyContent: "center",
   minHeight: "100vh",
-  backgroundImage: `url(/src/assets/img-bg.jpeg)`,
+  backgroundImage: `url(/images/img-bg.jpeg)`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",

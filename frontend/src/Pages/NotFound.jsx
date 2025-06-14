@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Box, Grid, Typography, Button } from "@mui/material";
-import notFoundImg from "../assets/notfound-page.svg";
+import notFoundImg from "/images/notfound-page.svg";
 import {
   containerStyles,
   textGridStyles,
