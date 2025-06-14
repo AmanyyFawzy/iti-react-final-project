@@ -21,7 +21,7 @@ import {
   dividerLineStyles,
   RegisterPaperStyles
 } from "../styles/Login.style";
-
+import { BASE_URL } from '../api'
 import { FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { Link, useNavigate } from "react-router-dom";
@@ -55,11 +55,11 @@ export default function Register() {
 
   const password = watch("password");
 
-  // method login
+  // method Register
   const onSubmit = async (data) => {
     try {
       await axios.post(
-        "http://localhost:4000/register",
+        `${BASE_URL}/register`,
         {
           email: data.email,
           password: data.password,

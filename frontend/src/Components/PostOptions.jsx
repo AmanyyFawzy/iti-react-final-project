@@ -14,6 +14,8 @@ btnOptionStyle
 import DeleteIcon from "@mui/icons-material/Delete";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { BASE_URL } from '../api';
+
 
 const PostOptions = ({ postId, onPostDeleted,onEdit,postTitle,postImgUrl}) => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -41,7 +43,7 @@ const PostOptions = ({ postId, onPostDeleted,onEdit,postTitle,postImgUrl}) => {
   //Confirm deleting
   const handleConfirm = async (closeToast) => {
     try {
-      await axios.delete(`http://localhost:4000/posts/${postId}`);
+      await axios.delete(`${BASE_URL}/posts/${postId}`);
       toast.success("Post deleted successfully 🎉");
       if (onPostDeleted) {
         onPostDeleted();

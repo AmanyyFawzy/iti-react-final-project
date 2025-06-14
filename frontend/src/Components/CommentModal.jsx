@@ -26,6 +26,7 @@ import {
 import { IoSend, IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
 import axios from "axios";
+import { BASE_URL } from '../api';
 
 export default function CommentModal({ open, handleClose, post, currentUser }) {
   const [newComment, setNewComment] = useState("");
@@ -43,7 +44,7 @@ export default function CommentModal({ open, handleClose, post, currentUser }) {
       const updateComments = [...comments, commentObject];
 
       try {
-        await axios.put(`http://localhost:4000/posts/${post.id}`,{...post,comments:updateComments});
+        await axios.put(`${BASE_URL}/posts/${post.id}`,{...post,comments:updateComments});
         setComments(updateComments)
         setNewComment('')
       } catch (error) {

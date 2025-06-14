@@ -20,7 +20,7 @@ import {
   twitterIconStyles,
   dividerLineStyles
 } from "../styles/Login.style";
-
+import { BASE_URL } from '../api';
 import { IoIosMail } from "react-icons/io";
 import { TbLockPassword } from "react-icons/tb";
 import { LuEye, LuEyeClosed } from "react-icons/lu";
@@ -45,13 +45,15 @@ export default function Login() {
     handleSubmit,
     formState: { errors },
   } = useForm();
+
+  // method Login
   const onSubmit = async (data) => {
     try {
-      const res = await axios.post("http://localhost:4000/signin", data);
-      const { accessToken, user } = res.data; // ✅ استخرج user من response
+      const res = await axios.post(`${BASE_URL}/signin`, data);
+      const { accessToken, user } = res.data;
 
-      localStorage.setItem("user", JSON.stringify(user)); // ✅ صح كده
-      localStorage.setItem("token", accessToken); // optional: لو هتستخدمه لاحقًا
+      localStorage.setItem("user", JSON.stringify(user));
+      localStorage.setItem("token", accessToken);
 
       toast.success("Login Successfully!!");
       navigate("/Home");

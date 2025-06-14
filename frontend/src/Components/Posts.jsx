@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import PostCard from "./PostCard";
 import { Box } from "@mui/material";
+import { BASE_URL } from '../api';
 
 export default function Posts({refresh,currentUser,onEditPost}) {
   const [posts, setPosts] = useState([]);
 
   const getPosts = async () => {
-    let response = await axios.get("http://localhost:4000/posts");
+    let response = await axios.get(`${BASE_URL}/posts`);
     setPosts(response.data.reverse());     //new post appears above
   };
 

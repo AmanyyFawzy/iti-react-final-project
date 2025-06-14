@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BASE_URL } from '../api.js';
 import { Avatar, Box, Button, Divider, Paper, TextField } from "@mui/material";
 import { FaVideo } from "react-icons/fa";
 import { FaPhotoFilm, FaFaceGrin } from "react-icons/fa6";
@@ -53,10 +54,7 @@ export default function Home() {
       };
 
       try {
-        await axios.put(
-          `http://localhost:4000/posts/${editingPost.id}`,
-          updatedPost
-        );
+        await axios.put(`${BASE_URL}/posts/${editingPost.id}`, updatedPost);
         toast.success("Post updated successfully!");
         resetForm();
       } catch (error) {
@@ -79,7 +77,7 @@ export default function Home() {
     };
 
     try {
-      await axios.post("http://localhost:4000/posts", newPost);
+      await axios.post(`${BASE_URL}/posts`, newPost);
       toast.success("Post created successfully!");
       resetForm();
     } catch (error) {
