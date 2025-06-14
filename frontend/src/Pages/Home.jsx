@@ -75,6 +75,7 @@ export default function Home() {
       userId: userData.id,
       title: postTitle,
       postImage: postImgUrl,
+      comments: []
     };
 
     try {
