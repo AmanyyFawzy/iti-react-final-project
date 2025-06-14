@@ -117,7 +117,7 @@ export default function Home() {
 
           <Divider />
 
-          <Box sx={bottomActionsStyles}>
+          <Box sx={{...bottomActionsStyles,display: { xs: "none", sm: "flex" }}}>
             <Button
               startIcon={<FaVideo color="#E42645" />}
               sx={actionBtnStyles}>

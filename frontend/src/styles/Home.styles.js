@@ -23,7 +23,6 @@ export const topBoxStyles = {
 };
 
 export const bottomActionsStyles = {
-  display: { xs: "none", sm: "flex" },
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
