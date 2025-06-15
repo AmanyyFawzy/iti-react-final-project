@@ -180,7 +180,7 @@ export default function NavBar() {
         sx={appBarStyle}>
         <Toolbar sx={toolbarStyle}>
           {/* Logo */}
-          <BsFacebook color="#0866FF" size={36} style={{ display: { xs: 'none', md: 'block' } }} />
+          <BsFacebook color="#0866FF" size={36} />
 
           {/* Search */}
           <Search sx={searchContainerStyle}>
