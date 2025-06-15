@@ -115,7 +115,7 @@ export default function Home() {
             />
           </Box>
 
-          <Divider />
+          <Divider sx={{display: { xs: "none", sm: "flex" } }}/>
 
           <Box sx={{...bottomActionsStyles,display: { xs: "none", sm: "flex" }}}>
             <Button
